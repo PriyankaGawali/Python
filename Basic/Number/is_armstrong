@@ -1,0 +1,26 @@
+'''Write a program to accept a number from user. Check whether the given number is armstrong number or not.'''
+
+def check_armstrong(num):
+    add = 0
+    x = num
+    while num > 0:
+        digit = num % 10
+        add = add + digit * digit * digit
+        num = int(num / 10)
+
+    if add == x:
+        return True
+    else:
+        return False
+
+
+def main():
+    n = int(input("Enter number:"))
+    if check_armstrong(n):
+        print(n, " is a armstrong number")
+    else:
+        print(n, " is not armstrong number")
+
+
+if __name__ == '__main__':
+    main()
