@@ -1,6 +1,6 @@
-# WAP to check the given no. is 2's number or not without using arithmatic operator
-# Hint1 : Any 2's power has only one 1 bit
-# Hint2 : num & num - 1 = 0
+''' WAP to check the given no. is 2's number or not without using arithmatic operator
+ Hint1 : Any 2's power has only one 1 bit
+ Hint2 : num & num - 1 = 0'''
 
 
 def check_2s_power(n):
