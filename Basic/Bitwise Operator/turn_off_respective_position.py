@@ -1,13 +1,6 @@
-#WAP to accept a number , position and no. of bits to be turn off from given position.
-#Turn off respective bits from the given position and display the result.
-#     011011010   = 218
-#pos= 5 from position 5
-#no. of bits 4
-#Ans  011000000   =  192
-
-#step 1 - position must be greater than no. of bits
-#step 2 - find x    ---->2^4 -1,    1<<num & bit - 1
-#left shift by pos - no. of bits
+'''WAP to accept a number , position and no. of bits to be turn off from given position.
+Turn off respective bits from the given position and display the result.
+'''
 
 
 def turn_off_respective_position(n, pos, bits):
