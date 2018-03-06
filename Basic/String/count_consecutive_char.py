@@ -1,6 +1,6 @@
-# WAP to count how many times a character is consecutive
-# input - aabbcccddabbb
-# output - a2b2c3d2a1b3
+''' WAP to count how many times a character is consecutive
+ input - aabbcccddabbb
+ output - a2b2c3d2a1b3  '''
 
 
 def count_consecutive(input_str):
