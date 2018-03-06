@@ -1,8 +1,8 @@
-# Write a program to perform menu driven bitwise operator operation.
-# Menu 1. Turn off respective position
-# 2. Turn on respective position
-# 3. Toggle respective position
-# e. Exit
+''' Write a program to perform menu driven bitwise operator operation.
+ Menu 1. Turn off respective position
+ 2. Turn on respective position
+ 3. Toggle respective position
+ 4. Exit'''
 
 
 import sys
