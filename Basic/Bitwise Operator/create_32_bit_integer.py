@@ -1,12 +1,12 @@
-#WAP to accept following values from user. CRC, length, data and flag where
-#CRC is 5 bits,     (e.g. 7 i.e. 00111)
-#length is 8 bits   (e.g.12 i.e. 00001100)
-#data is 18 bits and  (e.g. 145 i.e. 000000000010010001)
-#flag is 1 bit.  (e.g. 0 i.e. 0)
-#Then packet is 00111000011000000000000100100010
-# (Total 32 bits)
-#packet value = 945815842
-
+'''WAP to accept following values from user. CRC, length, data and flag where
+CRC is 5 bits,     (e.g. 7 i.e. 00111)
+length is 8 bits   (e.g.12 i.e. 00001100)
+data is 18 bits and  (e.g. 145 i.e. 000000000010010001)
+flag is 1 bit.  (e.g. 0 i.e. 0)
+Then packet is 00111000011000000000000100100010
+(Total 32 bits)
+packet value = 945815842
+'''
 
 def de_packet(packet):
     # remove flag  bit
