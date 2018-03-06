@@ -1,7 +1,7 @@
-# WAP to accept 2 strings from user. And check if second string is a right rotation of first string.
-# Hint:
-# India, iaInd -> This should be true
-# Jeetendra 1st right rotation "aJeetendr"
+'''WAP to accept 2 strings from user. And check if second string is a right rotation of first string.
+ Hint:
+ India, iaInd -> This should be true
+ Jeetendra 1st right rotation "aJeetendr"   '''
 
 
 def is_rotation(input_str,validate_str):
