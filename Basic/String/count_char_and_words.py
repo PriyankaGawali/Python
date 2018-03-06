@@ -1,4 +1,10 @@
-# WAP to accept a sentence from user and print count of characters , words in the input statement
+''' WAP to accept a sentence from user and print count of characters , words in the input statement
+Input: Enter string:Hi.........hi Priya
+      Enter sub string:hi
+      
+Output: hi is occured 2 times in Hi.........hi Priya
+
+'''
 
 
 def count_char_words(string):
