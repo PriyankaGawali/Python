@@ -1,9 +1,9 @@
-# WAP to accept a name of a file from user  and print count of lines present in that file based on following filters
-# if filter comes as empty string, then total line count
-# if filter comes as ^input_string, count only those lines which begins with input_string.
-# if filter comes as input_string$, count only those lines which ends wih hello
-# if filter comes as input_string, count those lines which contains input_string.
-
+''' WAP to accept a name of a file from user  and print count of lines present in that file based on following filters
+ if filter comes as empty string, then total line count
+ if filter comes as ^input_string, count only those lines which begins with input_string.
+ if filter comes as input_string$, count only those lines which ends wih hello
+ if filter comes as input_string, count those lines which contains input_string.
+'''
 
 def line_filter(fd):
 
