@@ -4,11 +4,9 @@
 
 import re
 
-
 def main():
     input_string = input("Enter string :")
-    #print(re.sub("\D", "", input_string))
-    print(re.sub("[0-9]+","",input_string))
+    print(re.sub("\D", "", input_string))
 
 
 if __name__ == '__main__':
