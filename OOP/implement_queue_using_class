@@ -1,0 +1,71 @@
+# WAP to implement queue operations using class
+
+import sys
+
+
+class Queue:
+
+    def __init__(self, size=10):
+        self.size = size
+        self.list_a = []
+
+    def is_full(self):
+        if len(self.list_a) == self.size:
+            return True
+        return False
+
+    def is_empty(self):
+        if len(self.list_a) == 0:
+            return True
+        return False
+
+    def add(self, value):
+        if self.is_full():
+            print("Queue is full")
+        else:
+            self.list_a.append(value)
+
+    def remove(self):
+        if self.is_empty():
+            print("Queue is empty")
+        else:
+            print("Pop value is : ", self.list_a.pop(0))
+
+
+def main():
+    que_obj = Queue()
+    while True:
+        print("1. Check whether queue is empty")
+        print("2. Check whether queue is full")
+        print("3. Add element to queue")
+        print("4. Remove element from queue")
+        print("5. Exit")
+        choice = input("Enter choice :")
+        if choice == "1":
+            if que_obj.is_empty():
+                print("Queue is empty")
+            else:
+                print("Queue is not empty")
+
+        elif choice == "2":
+            if que_obj.is_full():
+                print("Queue is full")
+            else:
+                print("Queue is not full")
+
+        elif choice == "3":
+            value = input("Enter value to add :")
+            que_obj.add(value)
+
+        elif choice == "4":
+            que_obj.remove()
+
+        elif choice == "5":
+            sys.exit()
+
+        else:
+            print("Invalid choice")
+
+
+if __name__ == '__main__':
+    main()
