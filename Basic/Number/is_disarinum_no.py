@@ -6,7 +6,7 @@ Input
     135
 Output
     1
-For 135, sum of digits powered with their respective position = 1^1 + 3^2 + 5^3 = 135, which is equal to an original number.
+For 135, sum of digits powered with their respective position = 1^1 + 3^2 + 5^3 = 135, which is equal to an original number called as Disarium number.
 
 '''
 
