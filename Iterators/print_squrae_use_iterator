@@ -1,0 +1,17 @@
+# Write a program to print square of the numbers in list. Use iterators.
+
+def main():
+    x = [1, 2, 3, 4, 5]
+    iterator_1 = iter(x)
+
+    while True:
+        try:
+            num = next(iterator_1)
+        except StopIteration:
+            break
+        else:
+            print(num * num)
+
+
+if __name__ == '__main__':
+    main()
