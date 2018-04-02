@@ -1,0 +1,19 @@
+# WAP to return squares of the numbers in the given range based on generator
+
+
+def square(lb, ub):
+    for i in range(lb, ub + 1):
+        yield i * i
+
+
+def main():
+    lb = int(input("Enter start range:"))
+    ub = int(input("Enter end range:"))
+    result = square(lb, ub)
+
+    for ans in result:
+        print(ans)
+
+
+if __name__ == '__main__':
+    main()
