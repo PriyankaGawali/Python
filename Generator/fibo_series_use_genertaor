@@ -6,9 +6,7 @@ def fibo(max_value):
     while True:
         c = a + b
         if c < max_value:
-            print("Before yield keyword")
             yield c
-            print("After yield keyword")
             a = b
             b = c
         else:
