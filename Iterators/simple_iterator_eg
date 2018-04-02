@@ -1,0 +1,17 @@
+# Write a program to iterate a list. Use iterators.
+
+
+def main():
+    list_1 = [1, 2, "priya", "vaibahv"]
+    iterator_1 = iter(list_1)
+    while True:
+        try:
+            result = next(iterator_1)
+        except StopIteration:
+            break
+        else:
+            print(result)
+
+
+if __name__ == '__main__':
+    main()
