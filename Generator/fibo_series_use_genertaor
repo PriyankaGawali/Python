@@ -1,0 +1,30 @@
+# Write a program to generate fibonacci series upto given max range. The max range accept from user. Use generator.
+
+def fibo(max_value):
+    a = 0
+    b = 1
+    while True:
+        c = a + b
+        if c < max_value:
+            print("Before yield keyword")
+            yield c
+            print("After yield keyword")
+            a = b
+            b = c
+        else:
+            break
+
+
+def main():
+    max_value = int(input("Enter end range:"))
+    print("Fibo series up to", max_value)
+    result = fibo(max_value)
+
+    print(result)
+
+    for ans in result:
+        print(ans)
+
+
+if __name__ == '__main__':
+    main()
